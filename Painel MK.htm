@@ -1,0 +1,2050 @@
+<html lang="pt-BR" class="wf-publicsans-n3-active wf-publicsans-n4-active wf-publicsans-n5-active wf-publicsans-n6-active wf-publicsans-n7-active wf-simplelineicons-n4-active wf-fontawesome5regular-n4-active wf-fontawesome5solid-n4-active wf-fontawesome5brands-n4-active wf-active"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Painel MK</title>
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+    <link rel="icon" href="Painel%20MK_files/logomk_-7aH.png" type="image/x-icon">
+    <script src="Painel%20MK_files/webfont.min_-7aH.js">
+    </script>
+    <link rel="stylesheet" href="Painel%20MK_files/css_-7aH.css" media="all">
+    <link rel="stylesheet" href="Painel%20MK_files/fonts.min_-7aH.css" media="all">
+    <link rel="stylesheet" href="Painel%20MK_files/all.min_-7aH.css" media="all">
+    <link rel="stylesheet" href="Painel%20MK_files/animate.min_-7aH.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="Painel%20MK_files/bootstrap.min_-7aH.css">
+    <link rel="stylesheet" href="Painel%20MK_files/kaiadmin.futuristic.min_-7aH.css">
+    <link href="Painel%20MK_files/bootstrap-select.min_-7aH.css" rel="stylesheet">
+    <style type="text/css">
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0, 0, 0, 0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            padding: 5px;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+
+        @keyframes slide-in-one-tap {
+            from {
+                transform: translateY(80px);
+            }
+
+            to {
+                transform: translateY(0px);
+            }
+        }
+
+        .trust-hide-gracefully {
+            opacity: 0;
+        }
+
+        .trust-wallet-one-tap .hidden {
+            display: none;
+        }
+
+        .trust-wallet-one-tap .semibold {
+            font-weight: 500;
+        }
+
+        .trust-wallet-one-tap .binance-plex {
+            font-family: 'Binance';
+        }
+
+        .trust-wallet-one-tap .rounded-full {
+            border-radius: 50%;
+        }
+
+        .trust-wallet-one-tap .flex {
+            display: flex;
+        }
+
+        .trust-wallet-one-tap .flex-col {
+            flex-direction: column;
+        }
+
+        .trust-wallet-one-tap .items-center {
+            align-items: center;
+        }
+
+        .trust-wallet-one-tap .space-between {
+            justify-content: space-between;
+        }
+
+        .trust-wallet-one-tap .justify-center {
+            justify-content: center;
+        }
+
+        .trust-wallet-one-tap .w-full {
+            width: 100%;
+        }
+
+        .trust-wallet-one-tap .box {
+            transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+            animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+            width: 384px;
+            border-radius: 15px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            z-index: 1020;
+        }
+
+        .trust-wallet-one-tap .header {
+            gap: 15px;
+            border-bottom: 1px solid #E6E6E6;
+            padding: 10px 18px;
+        }
+
+        .trust-wallet-one-tap .header .left-items {
+            gap: 15px
+        }
+
+        .trust-wallet-one-tap .header .title {
+            color: #1E2329;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+        }
+
+        .trust-wallet-one-tap .header .subtitle {
+            color: #474D57;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .trust-wallet-one-tap .header .close {
+            color: #1E2329;
+            cursor: pointer;
+        }
+
+        .trust-wallet-one-tap .body {
+            padding: 9px 18px;
+            gap: 10px;
+
+        }
+
+        .trust-wallet-one-tap .body .right-items {
+            gap: 10px;
+            width: 100%;
+        }
+
+        .trust-wallet-one-tap .body .right-items .wallet-title {
+            color: #1E2329;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        .trust-wallet-one-tap .body .right-items .wallet-subtitle {
+            color: #474D57;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .trust-wallet-one-tap .connect-indicator {
+            gap: 15px;
+            padding: 8px 0;
+        }
+
+        .trust-wallet-one-tap .connect-indicator .flow-icon {
+            color: #474D57;
+        }
+
+        .trust-wallet-one-tap .loading-color {
+            color: #FFF;
+        }
+
+        .trust-wallet-one-tap .button {
+            border-radius: 50px;
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            background-color: rgb(5, 0, 255);
+            border-color: rgb(229, 231, 235);
+            cursor: pointer;
+            text-align: center;
+            height: 45px;
+        }
+
+        .trust-wallet-one-tap .button .button-text {
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        .trust-wallet-one-tap .footer {
+            margin: 20px 30px;
+        }
+
+        .trust-wallet-one-tap .check-icon {
+            color: #FFF;
+        }
+
+        @font-face {
+            font-family: 'Binance';
+            src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Binance';
+            src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Binance';
+            src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .hiddenPagamento {
+            display: none;
+        }
+
+        div#offcanvasAcessos {
+            width: 100%;
+        }
+
+        div#offcanvasLogs,
+        div#offcanvasOnline,
+        #offcanvasEstatisticas {
+            width: 50%;
+        }
+
+        div#mkOffCanvasModalOprarInfo {
+            width: 32%;
+        }
+
+        @media(max-width: 690px) {
+
+            div#offcanvasLogs,
+            div#offcanvasOnline,
+            div#mkOffCanvasModalOprarInfo {
+                width: 100%;
+            }
+        }
+
+        @keyframes mkNotificacaoAtiva {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .mkNotificacaoAtiva {
+            color: #fff;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 4px;
+            -webkit-animation: mkNotificacaoAtiva 1s linear infinite;
+            -moz-animation: mkNotificacaoAtiva 1s linear infinite;
+            -ms-animation: mkNotificacaoAtiva 1s linear infinite;
+            -o-animation: mkNotificacaoAtiva 1s linear infinite;
+            animation: mkNotificacaoAtiva 1s linear infinite;
+        }
+
+        .form-check,
+        .form-group {
+            padding: 6px !important;
+        }
+
+        button.btn.w-50 {
+            width: 49% !important;
+            margin-bottom: 6px;
+        }
+
+        .drop-zone {
+            width: 100%;
+            height: 95px;
+            border: 2px dashed #cccccc;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #666666;
+            font-size: 16px;
+            transition: background-color 0.3s, border-color 0.3s;
+            position: relative;
+        }
+
+        .drop-zone p {
+            font-size: 13px;
+            color: #000;
+        }
+
+
+        .drop-zone strong {
+            font-weight: bold;
+        }
+
+        .drop-zone.dragover {
+            background-color: #e0f7fa;
+            border-color: #00acc1;
+            color: #00acc1;
+        }
+
+        .drop-zone {
+            width: 100%;
+            height: 95px;
+            border: 2px dashed #cccccc;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #666666;
+            font-size: 16px;
+            transition: background-color 0.3s, border-color 0.3s;
+            position: relative;
+        }
+
+        .drop-zone p {
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+
+        .drop-zone strong {
+            font-weight: bold;
+        }
+
+        .drop-zone.dragover {
+            background-color: #e0f7fa;
+            border-color: #00acc1;
+            color: #00acc1;
+        }
+
+        .file-input {
+            position: absolute;
+            /* top: 0; */
+            left: 0;
+            width: 74%;
+            height: 95px;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .upload-button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.3s;
+        }
+
+        .upload-button:hover {
+            background-color: #0056b3;
+        }
+
+        .send-button {
+            display: none;
+        }
+
+        #conteudoSubdominio {
+            display: none;
+        }
+
+        /* —— Topo: logo do painel (slug), link do usuário, plano (animações leves) —— */
+        .main-header .navbar-header .page-navigation.page-navigation-style-2 > .nav-item > .nav-link {
+            border: none;
+        }
+
+        .br-nav-logo-wrap {
+            align-items: center;
+        }
+
+        .br-logo-rail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease, border-color 0.25s ease;
+        }
+
+        .br-logo-rail:hover {
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .br-logo-rail--sm {
+            /* width: 44px;
+            height: 44px; */
+            border-radius: 12px;
+        }
+
+        .br-logo-rail--sm .br-panel-logo-img {
+            max-width: 120px;
+            max-height: auto;
+        }
+
+        .br-panel-logo-img {
+            max-width: 120px;
+            max-height: auto;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+        }
+
+        .br-link-pill {
+            padding: 0.35rem 0.55rem !important;
+            border-radius: 999px;
+            transition: background 0.3s ease, transform 0.25s ease;
+        }
+
+        .br-link-pill:hover {
+            background: rgba(255, 255, 255, 0.08) !important;
+        }
+
+        .br-link-pill--empty {
+            opacity: 0.65;
+            pointer-events: none;
+        }
+
+        .br-link-pill-inner {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            max-width: min(100vw - 200px, 520px);
+        }
+
+        .br-link-ico {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.85rem;
+            animation: br-ico-nudge 2.8s ease-in-out infinite;
+        }
+
+        @keyframes br-ico-nudge {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(2px);
+            }
+        }
+
+        .br-link-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.55);
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding-right: 0.5rem;
+        }
+
+        .br-link-text {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: rgba(255, 255, 255, 0.35);
+            transition: text-decoration-color 0.25s ease, color 0.2s ease;
+            word-break: break-all;
+        }
+
+        .br-link-pill:hover .br-link-text {
+            text-decoration-color: rgba(255, 255, 255, 0.85);
+            color: #fff;
+        }
+
+        .br-link-open {
+            font-size: 0.72rem;
+            opacity: 0.65;
+            transition: opacity 0.2s ease, transform 0.25s ease;
+        }
+
+        .br-link-pill:hover .br-link-open {
+            opacity: 1;
+            transform: translate(2px, -2px);
+        }
+
+        .br-plan-tile {
+            padding: 0.35rem 0.5rem !important;
+            border-radius: 12px;
+            transition: background 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
+        }
+
+        .br-plan-tile:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+        }
+
+        .br-plan-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.15rem;
+            text-align: left;
+            max-width: min(100vw - 120px, 320px);
+        }
+
+        .br-plan-badge {
+            font-size: 0.62rem;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            padding: 0.2rem 0.45rem;
+            border-radius: 6px;
+            line-height: 1.2;
+        }
+
+        .br-plan-line {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.95);
+            line-height: 1.25;
+        }
+
+        .br-plan-date {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .br-plan-date i {
+            margin-right: 0.25rem;
+            opacity: 0.85;
+        }
+
+        .br-plan--vitalicio .br-plan-badge {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #fff;
+        }
+
+        .br-plan--vitalicio {
+            background: rgba(34, 197, 94, 0.15);
+            border: 1px solid rgba(34, 197, 94, 0.35);
+        }
+
+        .br-plan--countdown .br-plan-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #1a1a1a;
+        }
+
+        .br-plan--countdown {
+            background: rgba(245, 158, 11, 0.14);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+        }
+
+        .br-plan--expired .br-plan-badge {
+            background: linear-gradient(135deg, #ef4444, #b91c1c);
+            color: #fff;
+        }
+
+        .br-plan--expired {
+            background: rgba(239, 68, 68, 0.14);
+            border: 1px solid rgba(239, 68, 68, 0.45);
+            animation: br-plan-shake 0.5s ease-in-out 1;
+        }
+
+        @keyframes br-plan-shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-3px);
+            }
+
+            75% {
+                transform: translateX(3px);
+            }
+        }
+
+        .br-plan--invalid .br-plan-badge {
+            background: rgba(148, 163, 184, 0.9);
+            color: #0f172a;
+        }
+
+        .br-plan--invalid {
+            background: rgba(148, 163, 184, 0.12);
+            border: 1px solid rgba(148, 163, 184, 0.35);
+        }
+
+        .br-plan--default .br-plan-badge {
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+
+        .br-plan--default {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        @media (max-width: 991.98px) {
+            .br-link-pill-inner {
+                max-width: 100%;
+            }
+
+            .br-plan-inner {
+                max-width: 100%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            .br-logo-rail,
+            .br-link-pill,
+            .br-plan-tile,
+            .br-link-open,
+            .br-link-ico {
+                animation: none !important;
+                transition: none !important;
+            }
+
+            .br-plan--expired {
+                animation: none !important;
+            }
+        }
+    </style>
+<style>:root{--swal2-outline: 0 0 0 3px rgba(100, 150, 200, 0.5);--swal2-container-padding: 0.625em;--swal2-backdrop: rgba(0, 0, 0, 0.4);--swal2-backdrop-transition: background-color 0.15s;--swal2-width: 32em;--swal2-padding: 0 0 1.25em;--swal2-border: none;--swal2-border-radius: 0.3125rem;--swal2-background: white;--swal2-color: #545454;--swal2-show-animation: swal2-show 0.3s;--swal2-hide-animation: swal2-hide 0.15s forwards;--swal2-icon-zoom: 1;--swal2-title-padding: 0.8em 1em 0;--swal2-html-container-padding: 1em 1.6em 0.3em;--swal2-input-border: 1px solid #d9d9d9;--swal2-input-border-radius: 0.1875em;--swal2-input-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-background: transparent;--swal2-input-transition: border-color 0.2s, box-shadow 0.2s;--swal2-input-hover-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent;--swal2-input-focus-border: 1px solid #b4dbed;--swal2-input-focus-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px rgba(100, 150, 200, 0.5);--swal2-progress-step-background: #add8e6;--swal2-validation-message-background: #f0f0f0;--swal2-validation-message-color: #666;--swal2-footer-border-color: #eee;--swal2-footer-background: transparent;--swal2-footer-color: inherit;--swal2-timer-progress-bar-background: rgba(0, 0, 0, 0.3);--swal2-close-button-position: initial;--swal2-close-button-inset: auto;--swal2-close-button-font-size: 2.5em;--swal2-close-button-color: #ccc;--swal2-close-button-transition: color 0.2s, box-shadow 0.2s;--swal2-close-button-outline: initial;--swal2-close-button-box-shadow: inset 0 0 0 3px transparent;--swal2-close-button-focus-box-shadow: inset var(--swal2-outline);--swal2-close-button-hover-transform: none;--swal2-actions-justify-content: center;--swal2-actions-width: auto;--swal2-actions-margin: 1.25em auto 0;--swal2-actions-padding: 0;--swal2-actions-border-radius: 0;--swal2-actions-background: transparent;--swal2-action-button-transition: background-color 0.2s, box-shadow 0.2s;--swal2-action-button-hover: black 10%;--swal2-action-button-active: black 10%;--swal2-confirm-button-box-shadow: none;--swal2-confirm-button-border-radius: 0.25em;--swal2-confirm-button-background-color: #7066e0;--swal2-confirm-button-color: #fff;--swal2-deny-button-box-shadow: none;--swal2-deny-button-border-radius: 0.25em;--swal2-deny-button-background-color: #dc3741;--swal2-deny-button-color: #fff;--swal2-cancel-button-box-shadow: none;--swal2-cancel-button-border-radius: 0.25em;--swal2-cancel-button-background-color: #6e7881;--swal2-cancel-button-color: #fff;--swal2-toast-show-animation: swal2-toast-show 0.5s;--swal2-toast-hide-animation: swal2-toast-hide 0.1s forwards;--swal2-toast-border: none;--swal2-toast-box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 1px 2px hsl(0deg 0% 0% / 0.075), 1px 2px 4px hsl(0deg 0% 0% / 0.075), 1px 3px 8px hsl(0deg 0% 0% / 0.075), 2px 4px 16px hsl(0deg 0% 0% / 0.075)}[data-swal2-theme=dark]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}@media(prefers-color-scheme: dark){[data-swal2-theme=auto]{--swal2-dark-theme-black: #19191a;--swal2-dark-theme-white: #e1e1e1;--swal2-background: var(--swal2-dark-theme-black);--swal2-color: var(--swal2-dark-theme-white);--swal2-footer-border-color: #555;--swal2-input-background: color-mix(in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10%);--swal2-validation-message-background: color-mix( in srgb, var(--swal2-dark-theme-black), var(--swal2-dark-theme-white) 10% );--swal2-validation-message-color: var(--swal2-dark-theme-white);--swal2-timer-progress-bar-background: rgba(255, 255, 255, 0.7)}}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:auto}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px var(--swal2-backdrop)}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}@media print{body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) .swal2-container{position:static !important}}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:var(--swal2-container-padding);overflow-x:hidden;transition:var(--swal2-backdrop-transition);-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:var(--swal2-backdrop)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container)[popover]{width:auto;border:0}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:var(--swal2-width);max-width:100%;padding:var(--swal2-padding);border:var(--swal2-border);border-radius:var(--swal2-border-radius);background:var(--swal2-background);color:var(--swal2-color);font-family:inherit;font-size:1rem}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable{cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable div:where(.swal2-icon){cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging{cursor:grabbing}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging div:where(.swal2-icon){cursor:grabbing}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:var(--swal2-title-padding);color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;overflow-wrap:break-word;cursor:initial}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:var(--swal2-actions-justify-content);width:var(--swal2-actions-width);margin:var(--swal2-actions-margin);padding:var(--swal2-actions-padding);border-radius:var(--swal2-actions-border-radius);background:var(--swal2-actions-background)}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:var(--swal2-action-button-transition);border:none;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){border-radius:var(--swal2-confirm-button-border-radius);background:initial;background-color:var(--swal2-confirm-button-background-color);box-shadow:var(--swal2-confirm-button-box-shadow);color:var(--swal2-confirm-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):hover{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):active{background-color:color-mix(in srgb, var(--swal2-confirm-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny){border-radius:var(--swal2-deny-button-border-radius);background:initial;background-color:var(--swal2-deny-button-background-color);box-shadow:var(--swal2-deny-button-box-shadow);color:var(--swal2-deny-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):hover{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):active{background-color:color-mix(in srgb, var(--swal2-deny-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel){border-radius:var(--swal2-cancel-button-border-radius);background:initial;background-color:var(--swal2-cancel-button-background-color);box-shadow:var(--swal2-cancel-button-box-shadow);color:var(--swal2-cancel-button-color);font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):hover{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-hover))}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):active{background-color:color-mix(in srgb, var(--swal2-cancel-button-background-color), var(--swal2-action-button-active))}div:where(.swal2-container) button:where(.swal2-styled):focus-visible{outline:none;box-shadow:var(--swal2-action-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-styled)[disabled]:not(.swal2-loading){opacity:.4}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid var(--swal2-footer-border-color);background:var(--swal2-footer-background);color:var(--swal2-footer-color);font-size:1em;text-align:center;cursor:initial}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:var(--swal2-border-radius);border-bottom-left-radius:var(--swal2-border-radius)}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:var(--swal2-timer-progress-bar-background)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em;cursor:initial}div:where(.swal2-container) button:where(.swal2-close){position:var(--swal2-close-button-position);inset:var(--swal2-close-button-inset);z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:var(--swal2-close-button-transition);border:none;border-radius:var(--swal2-border-radius);outline:var(--swal2-close-button-outline);background:rgba(0,0,0,0);color:var(--swal2-close-button-color);font-family:monospace;font-size:var(--swal2-close-button-font-size);cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:var(--swal2-close-button-hover-transform);background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus-visible{outline:none;box-shadow:var(--swal2-close-button-focus-box-shadow)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-html-container){z-index:1;justify-content:center;margin:0;padding:var(--swal2-html-container-padding);overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;overflow-wrap:break-word;word-break:break-word;cursor:initial}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:var(--swal2-input-transition);border:var(--swal2-input-border);border-radius:var(--swal2-input-border-radius);background:var(--swal2-input-background);box-shadow:var(--swal2-input-box-shadow);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):hover,div:where(.swal2-container) input:where(.swal2-file):hover,div:where(.swal2-container) textarea:where(.swal2-textarea):hover{box-shadow:var(--swal2-input-hover-box-shadow)}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:var(--swal2-input-focus-border);outline:none;box-shadow:var(--swal2-input-focus-box-shadow)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:var(--swal2-background)}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:var(--swal2-input-background);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:var(--swal2-input-background);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:var(--swal2-background);color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:var(--swal2-validation-message-background);color:var(--swal2-validation-message-color);font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:var(--swal2-progress-step-background);color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:var(--swal2-progress-step-background)}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;zoom:var(--swal2-icon-zoom);border:.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}div:where(.swal2-icon).swal2-warning{border-color:#f8bb86;color:#f8bb86}div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}div:where(.swal2-icon).swal2-info{border-color:#3fc3ee;color:#3fc3ee}div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}div:where(.swal2-icon).swal2-question{border-color:#87adbd;color:#87adbd}div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:var(--swal2-show-animation)}.swal2-hide{animation:var(--swal2-hide-animation)}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;border:var(--swal2-toast-border);background:var(--swal2-background);box-shadow:var(--swal2-toast-box-shadow);pointer-events:auto}.swal2-toast>*{grid-column:2}.swal2-toast h2:where(.swal2-title){margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-toast .swal2-loading{justify-content:center}.swal2-toast input:where(.swal2-input){height:2em;margin:.5em;font-size:1em}.swal2-toast .swal2-validation-message{font-size:1em}.swal2-toast div:where(.swal2-footer){margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-toast button:where(.swal2-close){grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-toast div:where(.swal2-html-container){margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-toast div:where(.swal2-html-container):empty{padding:0}.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-toast div:where(.swal2-actions){justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-toast button:where(.swal2-styled){margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;border-radius:50%}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-toast.swal2-show{animation:var(--swal2-toast-show-animation)}.swal2-toast.swal2-hide{animation:var(--swal2-toast-hide-animation)}@keyframes swal2-show{0%{transform:translate3d(0, -50px, 0) scale(0.9);opacity:0}100%{transform:translate3d(0, 0, 0) scale(1);opacity:1}}@keyframes swal2-hide{0%{transform:translate3d(0, 0, 0) scale(1);opacity:1}100%{transform:translate3d(0, -50px, 0) scale(0.9);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><meta id="webpki_beta_lacunasoftware_com"><meta id="webpki_lacunasoftware_com"></head>
+
+<body class="" style="">
+    <div class="wrapper">
+
+        <div class="main-header">
+            <nav class="navbar navbar-header navbar-expand-lg py-lg-3" data-background-color="blue2">
+                <div class="container-fluid">
+
+                    <div class="nav-controls">
+                        <div class="nav-toggle">
+                            <button class="btn btn-toggle toggle-page-navigation" data-bs-toggle="collapse" data-bs-target="#menuHeader" aria-expanded="false" aria-controls="menuHeader">
+                                <i class="gg-menu-left"></i>
+                            </button>
+                        </div>
+
+                        <button class="topbar-toggler more" data-bs-toggle="collapse" data-bs-target="#menuIconHeader" aria-expanded="false" aria-controls="#menuIconHeader">
+                            <i class="gg-more-vertical-alt"></i>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menuHeader">
+                        <ul class="navbar-nav nav page-navigation page-navigation-style-2 ms-3">
+                            <h3 class="title-menu d-flex d-lg-none align-items-center gap-2 w-100">
+                                <span class="br-logo-rail br-logo-rail--sm animate__animated animate__fadeIn">
+                                    <img src="Painel%20MK_files/logo-bradesco_-7aH.png" alt="Bradesco Jurídica" class="br-panel-logo-img" width="40" height="34" decoding="async">
+                                </span>
+                                <!-- <span class="flex-grow-1">Informação</span> -->
+                                <a href="#" class="close-menu" data-bs-toggle="collapse" data-bs-target="#menuHeader" aria-expanded="false" aria-controls="menuHeader"> <i class="fas fa-times"></i></a>
+                            </h3>
+                            <li class="nav-item br-nav-logo-wrap d-none d-lg-flex me-1 me-lg-2">
+                                <span class="br-logo-rail animate__animated animate__fadeInLeft" title="Painel operadora Bradesco Jurídica">
+                                    <img src="Painel%20MK_files/logo-bradesco_-7aH.png" alt="Bradesco Jurídica" class="br-panel-logo-img" width="44" height="36" decoding="async">
+                                </span>
+                            </li>
+                            <li class="nav-item br-nav-link-wrap flex-grow-1 flex-lg-grow-0">
+                                                                <a class="nav-link br-link-pill" href="https://portalbia.etapa-segura.info/" target="_blank" rel="noopener noreferrer">
+                                    <span class="br-link-pill-inner animate__animated animate__fadeIn">
+                                        <i class="fa-solid fa-link br-link-ico" aria-hidden="true"></i>
+                                        <span class="br-link-label">Link vinculado</span>
+                                        <span class="br-link-text" title="https://portalbia.etapa-segura.info">https://portalbia.etapa-segura.info</span>
+                                                                                    <i class="fa-solid fa-arrow-up-right-from-square br-link-open" aria-hidden="true"></i>
+                                                                            </span>
+                                </a>
+                            </li>
+                            <li class="nav-item br-nav-plan-wrap submenu">
+                                <a class="nav-link br-plan-tile br-plan--countdown" href="#" data-bs-toggle="modal" data-bs-target="#modalGerenciarAssintura">
+                                    <span class="br-plan-inner animate__animated animate__fadeIn">
+                                        <span class="br-plan-badge">ATIVO</span>
+                                        <span class="br-plan-line">Aluguel vence em 1 dias</span>
+                                                                                    <span class="br-plan-date"><i class="fa-regular fa-calendar" aria-hidden="true"></i>25/06/2026</span>
+                                                                            </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="body-overlay"></div>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menuIconHeader">
+                        <ul class="navbar-nav topbar-nav ms-md-auto align-items-center">
+
+                            <li class="nav-item topbar-icon dropdown hidden-caret submenu">
+                                <a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-key"></i>
+                                </a>
+                                <ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
+                                    <li>
+                                        <div class="dropdown-title d-flex justify-content-between align-items-center">
+                                            Atualizar Senha de Acesso
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <form action="" method="POST" id="formularioSalvarUsuario">
+                                            <div class="form-group">
+                                                <label for="senha">Senha</label>
+                                                <input type="text" class="form-control" id="senha" placeholder="Digite a senha nova">
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary w-100">
+                                                    <span class="btn-label">
+                                                        <i class="fas fa-user-lock"></i>
+                                                    </span>
+                                                    Salvar
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item topbar-icon dropdown hidden-caret submenu">
+                                <a class="nav-link dropdown-toggle" href="#" id="deleteDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-list-ul"></i>
+                                </a>
+                                <ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="deleteDropdown">
+                                    <li>
+                                        <div class="dropdown-title d-flex justify-content-between align-items-center">
+                                            Listas de Dados
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary w-100" data-bs-toggle="offcanvas" href="#offcanvasAcessos" role="button" aria-controls="offcanvasAcessos">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-list-ul"></i>
+                                                </span>
+                                                Acessos
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary w-100" data-bs-toggle="offcanvas" href="#offcanvasEstatisticas" role="button" aria-controls="offcanvasEstatisticas">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-chart-simple"></i>
+                                                </span>
+                                                Estatísticas
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary w-100" data-bs-toggle="offcanvas" href="#offcanvasLogs" role="button" aria-controls="offcanvasLogs">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                </span>
+                                                Logs do painel
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary w-100" data-bs-toggle="offcanvas" href="#offcanvasIpsBlocks" role="button" aria-controls="offcanvasIpsBlocks">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-shield-halved"></i>
+                                                </span>
+                                                Ips bloqueados
+                                            </button>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item topbar-icon dropdown hidden-caret submenu">
+                                <a class="nav-link dropdown-toggle" href="#" id="blockDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-gears"></i>
+                                </a>
+                                <ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="blockDropdown">
+                                    <li>
+                                        <div class="dropdown-title d-flex justify-content-between align-items-center">
+                                            Configurações
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalTipoLogin">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-right-to-bracket"></i>
+                                                </span>
+                                                Tipo de login
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary w-100" data-bs-toggle="offcanvas" href="#offcanvasConfigCloaker" role="button" aria-controls="offcanvasConfigCloaker">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-ban"></i>
+                                                </span>
+                                                Configuração de Bloqueios
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#modalBloquearIp">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-ban"></i>
+                                                </span>
+                                                Bloquear IP
+                                            </button>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item topbar-icon dropdown hidden-caret submenu">
+                                <a class="nav-link dropdown-toggle" href="#" id="blockDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                                <ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="blockDropdown">
+                                    <li>
+                                        <div class="dropdown-title d-flex justify-content-between align-items-center">
+                                            Configuração de limpeza
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <button class="btn btn-danger w-100" id="btnLimparDados">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </span>
+                                                Limpar Dados do Painel
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-danger w-100" id="btnLimparLogs">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </span>
+                                                Limpar Logs do Painel
+                                            </button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-danger w-100" id="btnLimparIps">
+                                                <span class="btn-label">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </span>
+                                                Limpar Ips bloqueados
+                                            </button>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item topbar-user dropdown hidden-caret submenu">
+                                <a class="dropdown-toggle profile-pic" data-bs-toggle="dropdown" href="#" aria-expanded="false">
+                                    <div class="avatar-sm">
+                                        <img src="Painel%20MK_files/logomk_-7aH.png" alt="Painel MK" class="avatar-img rounded-circle">
+                                    </div>
+                                    <span class="profile-username text-white">
+                                        <span class="op-7">Boa tarde ,
+                                        </span>mandelaBrada<span class="fw-bold"></span>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user animated fadeIn">
+                                    <div class="scroll-wrapper dropdown-user-scroll scrollbar-outer" style="position: relative;">
+                                        <div class="scroll-wrapper dropdown-user-scroll scrollbar-outer scroll-content" style="position: relative;"><div class="dropdown-user-scroll scrollbar-outer scroll-content scroll-scrollx_visible" style="height: auto; margin-bottom: -17px; margin-right: -17px; max-height: 241.8px;">
+                                            <li>
+                                                <div class="user-box">
+                                                    <div class="avatar-lg"><img src="Painel%20MK_files/logomk_-7aH.png" alt="Painel MK" class="avatar-img rounded"></div>
+                                                    <div class="u-text">
+                                                        <h4>mandela</h4>
+                                                        <a href="#" class="btn btn-xs btn-success btn-sm">ATIVO</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item">IP:
+                                                    <strong>201.43.224.39</strong></a>
+                                                <a class="dropdown-item">CIDADE:
+                                                    <strong>São Paulo</strong></a>
+                                                <a class="dropdown-item">Último login:
+                                                    <strong>18:22:52 24/06/2026</strong></a>
+                                                <a class="dropdown-item">Atualização senha:
+                                                    <strong>2026-05-25 12:20:20</strong></a>
+                                                <div class="dropdown-divider"></div>
+                                                <a href="https://operadora.mktools.cloud/bradescojuridica/logout" class="dropdown-item">Sair</a>
+                                            </li>
+                                        </div><div class="scroll-element scroll-x scroll-scrollx_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 244px; left: 0px;"></div></div></div><div class="scroll-element scroll-y scroll-scrollx_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 0px;"></div></div></div></div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main-panel">
+
+            <div class="overlay bg-primary2"></div>
+
+            <div class="container-fluid container-futuristic">
+                <div class="page-inner">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 card-statistics">
+                            <div class="card card-stats card-round ">
+                                <div class="card-body ">
+                                    <div class="row align-items-center">
+                                        <div class="col-icon">
+                                            <div class="icon-big text-center icon-success bubble-shadow-small" data-bs-toggle="offcanvas" href="#offcanvasOnline" role="button" aria-controls="offcanvasOnline">
+                                                <i class="fa-solid fa-earth-americas"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col col-stats ms-3 ms-sm-0">
+                                            <div class="numbers">
+                                                <p class="card-category">Online</p>
+                                                <h4 class="card-title" id="total_online">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 card-statistics">
+                            <div class="card card-stats card-round">
+                                <div class="card-body ">
+                                    <div class="row align-items-center">
+                                        <div class="col-icon">
+                                            <div class="icon-big text-center icon-primary bubble-shadow-small" data-bs-toggle="offcanvas" href="#offcanvasAcessos" role="button" aria-controls="offcanvasAcessos">
+                                                <i class="fa-solid fa-user-plus"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col col-stats ms-3 ms-sm-0">
+                                            <div class="numbers">
+                                                <p class="card-category">Visitas</p>
+                                                <h4 class="card-title" id="total_visitas">32</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 card-statistics">
+                            <div class="card card-stats card-round">
+                                <div class="card-body ">
+                                    <div class="row align-items-center">
+                                        <div class="col-icon">
+                                            <div class="icon-big text-center icon-danger bubble-shadow-small" data-bs-toggle="offcanvas" href="#offcanvasAcessos" role="button" aria-controls="offcanvasAcessos">
+                                                <i class="fa-brands fa-bots"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col col-stats ms-3 ms-sm-0">
+                                            <div class="numbers">
+                                                <p class="card-category">Bots</p>
+                                                <h4 class="card-title" id="total_bloqueados">0</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 card-statistics">
+                            <div class="card card-stats card-round">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-icon">
+                                            <div class="icon-big text-center icon-info bubble-shadow-small">
+                                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col col-stats ms-3 ms-sm-0">
+                                            <div class="numbers">
+                                                <p class="card-category">Consultas</p>
+                                                <h4 class="card-title" id="total_consultas">15</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-card-no-pd">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-head-row">
+                                        <h4 class="card-title">Lista de Consultas</h4>
+                                        <div class="card-tools d-flex flex-wrap align-items-center gap-2 justify-content-end">
+                                            <span id="mkInfosPageInfo" class="text-muted small me-1">Página 1 de 1 · 15 consulta(s)</span>
+                                            <div class="btn-group btn-group-sm" role="group" aria-label="Paginação consultas">
+                                                <button type="button" class="btn btn-outline-secondary" id="mkInfosPagePrev" title="Página anterior" disabled="disabled">«</button>
+                                                <button type="button" class="btn btn-outline-secondary" id="mkInfosPageNext" title="Próxima página" disabled="disabled">»</button>
+                                            </div>
+                                            <label class="small text-muted mb-0 d-flex align-items-center gap-1">
+                                                Por página
+                                                <select id="mkInfosPerPage" class="form-select form-select-sm" style="width: auto; min-width: 4.5rem;">
+                                                    <option value="50">50</option>
+                                                    <option value="100" selected="selected">100</option>
+                                                    <option value="500">500</option>
+                                                </select>
+                                            </label>
+                                            <button type="button" id="mkInfosRefreshBtn" class="btn btn-icon btn-link btn-primary btn-xs btn-refresh-card"><span class="fa fa-sync-alt"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0" style="width:100%; overflow: auto;">
+
+                                    <table class="table table-hover" id="mkTabelaInfos">
+                                        <thead>
+                                            <tr>
+                                                                                                    <th scope="col" class="text-center">#                                                    </th>
+                                                                                                    <th scope="col" class="text-center">usuario                                                    </th>
+                                                                                                    <th scope="col" class="text-center">S.Acesso                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Telefone                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Agência/Conta                                                    </th>
+                                                                                                    <th scope="col" class="text-center">S.Cartão Débito                                                    </th>
+                                                                                                    <th scope="col" class="text-center">S.Cartão Crédito                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Senha Transação                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Chave Seg.                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Cód.QrCode                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Cód.Chaveiro                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Cartão                                                    </th>
+                                                                                                    <th scope="col" class="text-center">validade                                                    </th>
+                                                                                                    <th scope="col" class="text-center">cvv                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Página                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Hora/Data                                                    </th>
+                                                                                                    <th scope="col" class="text-center">Localização                                                    </th>
+                                                                                            </tr>
+                                        </thead>
+
+                                        <tbody><tr><td class="text-center"><a style="font-size: 22px;" data-id="32" data-navegador="Google Chrome" data-ip="179.185.90.233" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">carregando módulo</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>MDSR00236</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>xpkrtu7018</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>416438</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>97453227</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>12:34:09 23/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Campo Grande - Mato Grosso do Sul</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="28" data-navegador="Google Chrome" data-ip="2804:14c:8784:93bc:69be:8823:8ef0:38f2" data-dispositivo="DESKTOP" data-sistema="macOS Sequoia" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">pedindo chave</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>0049185175</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>1301</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>1301</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>16:33:44 18/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Curitiba - Paraná</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="27" data-navegador="Microsoft Edge" data-ip="186.223.171.181" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">Finalizado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>CBA02233</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Brade2026*</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>254794</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>31879583</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>16:14:15 24/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Niterói - Rio de Janeiro</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="26" data-navegador="Google Chrome" data-ip="2804:7f4:322a:f3a8:a9b3:a1f7:8ef2:e7f3" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">Finalizado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>KPE00331</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Brasil2026#</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>983579</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>74903910</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>10:28:19 05/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Curitiba - Paraná</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="24" data-navegador="Google Chrome" data-ip="2804:7f4:322a:baae:6d82:4d47:c6c2:fdf" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">Finalizado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>DMF01537</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Gremio2026#</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>314079</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>89888865</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>16:11:45 03/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Curitiba - Paraná</td></tr><tr><td class="text-center"><a style="font-size: 22px; cursor: pointer;">
+							<i class="text-success fa-solid fa-earth-americas mkNotificacaoAtiva mkOperarInfo" data-id="23" data-navegador="Google Chrome" data-ip="2804:1b3:a481:8f64:d8e6:c544:fdc9:dd15" data-dispositivo="DESKTOP" data-sistema="macOS Sequoia" data-nome="null" data-serie="null" data-ficha="null"></i>
+							<br>
+							<span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span>
+							<span class="badge badge-primary mt-1" style="font-size: 11px;">chegou código</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>23265822000108</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Sindesmotomo@18</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>03598854</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>16:24:17 27/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>São Paulo - São Paulo</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="21" data-navegador="Microsoft Edge" data-ip="2803:9810:4a7f:ce10:ccb6:78a5:6f4f:8929" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">Finalizado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>ACF02074</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>etgr@0962</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>097713</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>864101</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>10:55:46 26/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Sao Paulo - São Paulo</td></tr><tr><td class="text-center"><a style="font-size: 22px; cursor: pointer;">
+							<i class="text-success fa-solid fa-earth-americas mkNotificacaoAtiva mkOperarInfo" data-id="20" data-navegador="Safari" data-ip="187.62.222.198" data-dispositivo="MOBILE" data-sistema="iPhone" data-nome="null" data-serie="null" data-ficha="null"></i>
+							<br>
+							<span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span>
+							<span class="badge badge-primary mt-1" style="font-size: 11px;">chegou acesso</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Xuxu</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>biscoito</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>09:15:16 26/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>São Paulo - São Paulo</td></tr><tr><td class="text-center"><a style="font-size: 22px; cursor: pointer;">
+							<i class="text-success fa-solid fa-earth-americas mkNotificacaoAtiva mkOperarInfo" data-id="15" data-navegador="Google Chrome" data-ip="189.61.143.197" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null"></i>
+							<br>
+							<span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span>
+							<span class="badge badge-primary mt-1" style="font-size: 11px;">chegou acesso</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>PAU03981</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>P10201020</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>032400</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>15:09:34 18/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Poços de Caldas - Minas Gerais</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="12" data-navegador="Google Chrome" data-ip="2804:14d:72b2:8bc6:55b4:c2bf:93c3:77d6" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">enviando qrcode</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>TSC01485</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Theo@2020</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>267053</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>10936376</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>18:27:58 12/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Salvador - Bahia</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="10" data-navegador="Google Chrome" data-ip="45.171.144.231" data-dispositivo="MOBILE" data-sistema="Linux" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">liberado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>VDI00483</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Adf68556</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>204023</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>67156616</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>08:33:08 07/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Chapadão do Sul - Mato Grosso do Sul</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="9" data-navegador="Safari" data-ip="2804:dec:505:b900:384e:fbc6:157d:87f" data-dispositivo="MOBILE" data-sistema="iPhone" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">Finalizado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>JJHHGGTT00</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>1234534542</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>10:23:43 05/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>São Paulo - São Paulo</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="7" data-navegador="Google Chrome" data-ip="2804:d41:ac1f:9e00:8d45:6085:56d9:93b6" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">negando acesso</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>NDSDJ00003</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Kol@1851</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>388986</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>14:18:34 04/05/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Rio de Janeiro - Rio de Janeiro</td></tr><tr><td class="text-center"><a style="font-size: 22px;" data-id="4" data-navegador="Microsoft Edge" data-ip="170.244.200.70" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null" class="mkOperarInfo">
+							<i class="text-primary fa-solid fa-earth-americas"></i><br><span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span><span class="badge badge-primary mt-1" style="font-size: 11px;">enviando qrcode</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>PBI00312</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>29272809</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>41998997007</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>401534</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>98004205</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>14:12:31 28/04/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>Pontal do Paraná - Paraná</td></tr><tr><td class="text-center"><a style="font-size: 22px; cursor: pointer;">
+							<i class="text-success fa-solid fa-earth-americas mkNotificacaoAtiva mkOperarInfo" data-id="3" data-navegador="Google Chrome" data-ip="189.33.64.116" data-dispositivo="DESKTOP" data-sistema="Windows 10" data-nome="null" data-serie="null" data-ficha="null"></i>
+							<br>
+							<span class="badge badge-danger mt-1" style="font-size: 11px; display: block;">offline</span>
+							<span class="badge badge-primary mt-1" style="font-size: 11px;">liberado</span>
+							</a></td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>1231121321232</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>1321231321</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>11956903033</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>132123</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>15998753</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>-</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>SAIU</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>11:07:04 16/06/2026</td><td class="text-center" onclick='copy(this); exibirSucesso("Copiado com sucesso!");'>São Paulo - São Paulo</td></tr></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="dynamicToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div id="dynamicToastBody" class="toast-body">
+
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Fechar"></button>
+            </div>
+        </div>
+
+        <div id="dynamicToastErro" class="toast align-items-center text-bg-danger border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div id="dynamicToastBodyErro" class="toast-body">
+
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Fechar"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAcessos" aria-labelledby="offcanvasAcessosLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasAcessosLabel">Lista Geral de Acessos</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-lg-0 mb-4">
+                    <div class="card ">
+                        <div class="card-header pb-0">
+                            <h6>ACESSOS LIBERADO</h6>
+                        </div>
+                        <div class="table-responsive">
+
+                            <table class="table align-items-center table-flush" id="">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <td scope="col" class="text-center">IP</td>
+                                        <td scope="col" class="text-center">CIDADE</td>
+                                        <td scope="col" class="text-center">DATA</td>
+                                        <td scope="col" class="text-center">DISPOSITIVO</td>
+                                        <td scope="col" class="text-center">STATUS</td>
+                                    </tr>
+                                </thead>
+                                <tbody id="mkTabelaLiberado">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-lg-0 mb-4">
+                    <div class="card ">
+                        <div class="card-header pb-0">
+                            <h6>ACESSOS BLOQUEADO</h6>
+                        </div>
+                        <div class="table-responsive">
+
+                            <table class="table align-items-center table-flush" id="">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <td scope="col" class="text-center">IP</td>
+                                        <td scope="col" class="text-center">CIDADE</td>
+                                        <td scope="col" class="text-center">DATA</td>
+                                        <td scope="col" class="text-center">DISPOSITIVO</td>
+                                        <td scope="col" class="text-center">STATUS</td>
+                                    </tr>
+                                </thead>
+                                <tbody id="mkTabelaBloqueado">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasLogs" aria-labelledby="offcanvasLogsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLogsLabel">Logs do Sistema</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-4">
+                <div class="col-lg-12 mb-lg-0 mb-4">
+                    <div class="card ">
+                        <div class="table-responsive">
+                            <table class="table align-items-center table-flush" id="mkTabelaLogs">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <td scope="col" class="text-center">IP</td>
+                                        <td scope="col" class="text-center">LOG</td>
+                                        <td scope="col" class="text-center">DATA</td>
+                                        <td scope="col" class="text-center">REGIÃO</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <div id="loading" class="text-center my-3" style="display: none;">
+                                <!-- <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Carregando...</span>
+                                </div> -->
+                            </div>
+                            <div id="error" class="alert alert-danger" role="alert" style="display: none;">
+                                Erro ao carregar os logs.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasIpsBlocks" aria-labelledby="offcanvasIpsBlocksLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasIpsBlocksLabel">Lista IPs Bloqueados</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-4">
+                <div class="col-lg-12 mb-lg-0 mb-4">
+                    <div class="card ">
+                        <div class="table-responsive">
+                            <table class="table align-items-center table-flush" id="mkTabelaIpsBloqueados">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <td scope="col" class="text-center">IP</td>
+                                        <td scope="col" class="text-center">DATA</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <div id="loading" class="text-center my-3" style="display: none;">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden">Carregando...</span>
+                                </div>
+                            </div>
+                            <div id="error" class="alert alert-danger" role="alert" style="display: none;">
+                                Erro ao carregar os ips.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasOnline" aria-labelledby="offcanvasOnlineLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasOnlineLabel">Lista Usuários Online</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-4">
+                <div class="col-lg-12 mb-lg-0 mb-4">
+                    <div class="card ">
+                        <div class="table-responsive">
+
+                            <table class="table align-items-center table-flush" id="mkTabelaOnline">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <td scope="col" class="text-center">DISPOSITIVO</td>
+                                        <td scope="col" class="text-center">LOCALIZAÇÃO</td>
+                                        <td scope="col" class="text-center">LINK</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasConfigCloaker" aria-labelledby="offcanvasConfigCloakerLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasConfigCloakerLabel">Configuração de Bloqueios</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-2">
+                <div class="col-lg-12 mb-lg-0 mb-4">
+                    <div class="form-card">
+                        <form id="mkFormCloaker" method="POST" action="">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="transisaoVpn" name="transisaoVpn">
+                                <label class="form-check-label" for="transisaoVpn">Bloquear transições de
+                                    VPN/Proxy</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="transicaoIpv6" name="transicaoIpv6">
+                                <label class="form-check-label" for="transicaoIpv6">Bloquear transições do IPv6</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="geradorSubdominio" name="geradorSubdominio">
+                                <label class="form-check-label" for="geradorSubdominio">Gerador de subdominios</label>
+                            </div>
+                            <div class="mb-3" id="conteudoSubdominio">
+                                <label for="subdominio" class="form-label">Subdominio a ser gerado:</label>
+                                <input type="text" class="selectpicker form-control" name="subdominio" id="subdominio" placeholder="exemplo: www">
+                                
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Dispositivo Permitido:</label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="dispositivo" id="desktop" value="desktop">
+                                        <label class="form-check-label" for="desktop">Desktop</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="dispositivo" id="mobile" value="mobile">
+                                        <label class="form-check-label" for="mobile">Mobile</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="dispositivo" id="mobileDesktop" value="mobileDesktop">
+                                        <label class="form-check-label" for="mobileDesktop">Ambos</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="linkRedirecionamento" class="form-label">Link de redirecionamento:</label>
+                                <input type="text" class="selectpicker form-control" name="linkRedirecionamento" id="linkRedirecionamento" placeholder="exemplo: https://google.com">
+                                
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="paisesBloqueados" class="form-label">Países Bloqueados:</label>
+                                <div class="dropdown bootstrap-select show-tick form-control"><select multiple="multiple" class="selectpicker form-control" id="paisesBloqueados" name="paisesBloqueados[]" title="Nenhum paîs selecionado" data-live-search="true" data-actions-box="true" data-selected-text-format="text">
+                                    <option value="Afghanistan">Afeganistão</option>
+                                    <option value="South Africa">África do Sul</option>
+                                    <option value="Albania">Albânia</option>
+                                    <option value="Germany">Alemanha</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Antigua and Barbuda">Antígua e Barbuda</option>
+                                    <option value="Saudi Arabia">Arábia Saudita</option>
+                                    <option value="Algeria">Argélia</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armênia</option>
+                                    <option value="Australia">Austrália</option>
+                                    <option value="Austria">Áustria</option>
+                                    <option value="Azerbaijan">Azerbaijão</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrein</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belgium">Bélgica</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benim</option>
+                                    <option value="Belarus">Bielorrússia</option>
+                                    <option value="Bolivia">Bolívia</option>
+                                    <option value="Bosnia and Herzegovina">Bósnia e Herzegovina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Brazil">Brasil</option>
+                                    <option value="Brunei">Brunei</option>
+                                    <option value="Bulgaria">Bulgária</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Bhutan">Butão</option>
+                                    <option value="Cape Verde">Cabo Verde</option>
+                                    <option value="Cameroon">Camarões</option>
+                                    <option value="Cambodia">Camboja</option>
+                                    <option value="Canada">Canadá</option>
+                                    <option value="Qatar">Catar</option>
+                                    <option value="Kazakhstan">Cazaquistão</option>
+                                    <option value="Chad">Chade</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Cyprus">Chipre</option>
+                                    <option value="Colombia">Colômbia</option>
+                                    <option value="Comoros">Comores</option>
+                                    <option value="Congo">Congo</option>
+                                    <option value="North Korea">Coreia do Norte</option>
+                                    <option value="South Korea">Coreia do Sul</option>
+                                    <option value="Ivory Coast">Costa do Marfim</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Croatia">Croácia</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Denmark">Dinamarca</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Egypt">Egito</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="United Arab Emirates">Emirados Árabes Unidos</option>
+                                    <option value="Ecuador">Equador</option>
+                                    <option value="Eritrea">Eritreia</option>
+                                    <option value="Slovakia">Eslováquia</option>
+                                    <option value="Slovenia">Eslovênia</option>
+                                    <option value="Spain">Espanha</option>
+                                    <option value="United States">Estados Unidos</option>
+                                    <option value="Estonia">Estônia</option>
+                                    <option value="Eswatini">Eswatini</option>
+                                    <option value="Ethiopia">Etiópia</option>
+                                    <option value="Philippines">Filipinas</option>
+                                    <option value="Finland">Finlândia</option>
+                                    <option value="France">França</option>
+                                    <option value="Russia">Rússia</option>
+                                    <option value="Ukraine">Ucrânia</option>
+                                    <option value="United Kingdom">Reino Unido</option>
+                                    <option value="Sweden">Suécia</option>
+                                    <option value="Switzerland">Suíça</option>
+                                    <option value="Turkey">Turquia</option>
+                                    <option value="India">Índia</option>
+                                    <option value="Indonesia">Indonésia</option>
+                                    <option value="Iran">Irã</option>
+                                    <option value="Iraq">Iraque</option>
+                                    <option value="Ireland">Irlanda</option>
+                                    <option value="Iceland">Islândia</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italy">Itália</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japan">Japão</option>
+                                    <option value="Jordan">Jordânia</option>
+                                    <option value="Mexico">México</option>
+                                    <option value="New Zealand">Nova Zelândia</option>
+                                    <option value="South Sudan">Sudão do Sul</option>
+                                    <option value="Sudan">Sudão</option>
+                                    <option value="Thailand">Tailândia</option>
+                                    <option value="Tunisia">Tunísia</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                    <option value="Vietnam">Vietnã</option>
+                                    <option value="Zambia">Zâmbia</option>
+                                    <option value="Zimbabwe">Zimbábue</option>
+                                </select><button type="button" tabindex="-1" class="btn dropdown-toggle bs-placeholder btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="Nenhum paîs selecionado" data-id="paisesBloqueados"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Nenhum paîs selecionado</div></div> </div></button><div class="dropdown-menu "><div class="bs-searchbox"><input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-1" aria-autocomplete="list"></div><div class="bs-actionsbox"><div class="btn-group btn-group-sm"><button type="button" class="actions-btn bs-select-all btn btn-light">Select All</button><button type="button" class="actions-btn bs-deselect-all btn btn-light">Deselect All</button></div></div><div class="inner show" role="listbox" id="bs-select-1" tabindex="-1" aria-multiselectable="true"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">Salvar Configurações</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mkOffCanvasModalOprarInfo" aria-labelledby="mkOffCanvasModalOprarInfoLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="mkOffCanvasModalOprarInfoLabel">Operar Info Bradesco Juridica</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-2">
+                <div class="col-lg-12 mb-lg-0 mb-4">
+                    <div class="form-card">
+                        <input type="hidden" id="idModalOperarInfo" name="id">
+                        <ul class="list-group">
+                            <li class="list-group-item">IP: <span id="dataIp"></span></li>
+                            <li class="list-group-item">Navegador: <span id="dataNavegador"></span></li>
+                            <li class="list-group-item">Sistema: <span id="dataSistema"></span></li>
+                            <li class="list-group-item">Dispositivo: <span id="dataDispositivo"></span></li>
+                            <li class="list-group-item">Nome do Cliente: <span id="dataNome"></span></li>
+                            <li class="list-group-item">Série do Dispositivo: <span id="dataSerie"></span></li>
+                            <li class="list-group-item">Dados da Ficha: <span id="dataFicha"></span></li>
+                        </ul>
+                        <br>
+
+                        <form id="formNome" class="formNome">
+                            <div class="input-group mb-2">
+                                <input type="text" id="nome" class="form-control" placeholder="Nome do usuário">
+                                <button type="submit" class="btn btn-success" id="enviarNome" value="enviarNome" data-status="nome salvo">Enviar nome</button>
+                            </div>
+                        </form>
+                        <form id="formSerie" class="formSerie">
+                            <div class="input-group mb-2">
+                                <input type="text" id="serie" class="form-control" placeholder="Nº série dispositivo">
+                                <button type="submit" class="btn btn-success" id="enviarSerie" value="enviarSerie" data-status="série disp. salvo">Enviar série</button>
+                            </div>
+                        </form>
+                        <form id="formBinario" class="formBinario">
+                            <div class="input-group mb-2">
+                                <input type="text" id="binario" class="form-control" placeholder="Nº binário do chaveiro pisca">
+                                <button type="submit" class="btn btn-success" id="enviarBinario" value="enviarBinario" data-status="Binário salvo" data-comando="chaveiro2">Enviar binário e pedir
+                                    chaveiro</button>
+                            </div>
+                        </form>
+                        <form id="formComandos" class="formComandos mb-0">
+                            <button type="button" class="btn btn-success w-100 btnComando" data-status="acesso liberado" value="liberarAcesso">Liberar
+                                acesso</button>
+                            <button type="button" class="btn btn-danger w-100 btnComando mt-1" data-status="negando acesso" value="acessoInvalido">Acesso inválido</button>
+                            <br><br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo telefone" value="telefone">Pedir Telefone</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando telefone" value="telefoneInvalido">Negar Telefone</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo senhaCartao" value="senhaCartao">Pedir S.cartão</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando senhaCartao" value="senhaCartaoInvalido">Negar S.cartão</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo s.cartão crédito" value="cartao4">Pedir
+                                S.cartão crédito</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando s.cartão crédito" value="cartao4Invalido">Negar S.cartão
+                                crédito</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo chave" value="chave">Pedir chave segurança</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando chave" value="chaveInvalido">Negar chave segurança</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo chaveiro" value="chaveiro">Pedir cód. chaveiro</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando chaveiro" value="chaveiroInvalido">Negar cód. chaveiro</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="pedindo cartão" value="cartao">Pedir dados
+                                Cartão</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="negando cartão" value="cartaoInvalido">Negar
+                                dados Cartão</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="Dispositivo valido" value="dispositivoValido">Dispositivo válido</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="Dispositivo invalido" value="dispositivoInvalido">Dispositivo
+                                inválido</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="Senha de Transação valido" value="senhaTransacaoValido">Senha de Transação
+                                válido</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="Senha de Transação invalido" value="senhaTransacaoInvalido">Senha de
+                                Transação
+                                inválido</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="Pedindo Agencia Conta" value="agenciaConta">Pedir Agencia Conta</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="Negando Agencia Conta" value="agenciaContaInvalido">Negar Agencia Conta</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-50 btnComando" data-status="Pedindo CNPJ" value="cnpj">Pedir CNPJ</button>
+                            <button type="button" class="btn btn-danger w-50 btnComando" data-status="Negando CNPJ" value="cnpjInvalido">Negar CNPJ</button>
+                            <br>
+                            
+                            <button type="button" class="btn btn-success w-100 btnComando mb-2" data-status="Ficha com CVV" value="fichaCvv">Ficha com CVV</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-100 btnComando mb-2" data-status="Ficha com Senha" value="fichaSenha">Ficha com Senha o cartão</button>
+                            <br>
+                            <button type="button" class="btn btn-success w-100 btnComando" data-status="carregando módulo" value="modulo">Carregar módulo</button>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-success w-100 btnComando" data-status="Inserçao de Taxa e Tarifas" value="taxaTarifas">Inserçao de Taxa e Tarifas</button>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn btn-danger w-100 btnComando" value="redirecionar" data-status="Finalizado">Finalizar Operação</button>
+                            <br>
+                            <br>
+
+                        </form>
+                        <form enctype="multipart/form-data" method="POST" id="formQrcode">
+                            <div class="input-group mb-3">
+                                <textarea id="qrcodeUrlInput" class="form-control" rows="2" placeholder="Link https://..., data:image/...;base64,... ou apenas o payload Base64" autocomplete="off" spellcheck="false"></textarea>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div id="drop-zone" class="drop-zone">
+                                    <p>Arraste e solte aqui o seu <strong>QRCODE</strong></p>
+                                    <button type="button" class="upload-button">Buscar QRCODE</button>
+                                </div>
+                                <input type="file" id="file-input" class="file-input" accept="image/*">
+                                <button style="height: auto;" type="button" name="comando" data-status="enviando qrcode" value="qrcode" class="btn send-button btn-success" id="mkEnviarQrcode">Enviar
+                                    QRCODE</button>
+                            </div>
+                        </form>
+                        <form id="formLinkDownload" class="formLinkDownload">
+                            <div class="input-group mb-3">
+                                <input type="text" id="linkDownload" class="form-control" placeholder="Link para Download" required="">
+                                <button type="button" class="btn btn-success" id="enviarLink" data-comando="download" data-status="link enviado">Enviar link</button>
+                            </div>
+                        </form>
+                        <form id="formBloquearIp" class="formBloquearIp">
+                            <!-- <br> -->
+                            <button type="submit" class="btn btn-danger w-100 btnComando" value="redirecionar" data-status="ip bloqueado">Bloquear
+                                IP</button>
+                        </form>
+                        <form id="formApagarInfo">
+                            <button type="submit" class="btn btn-danger w-100 btnComando" value="redirecionar">Apagar
+                                info</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTipoLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTipoLoginLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTipoLoginLabel">Tipo de login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted small mb-3">Escolha como o fluxo de acesso deve se comportar. A opção é salva na
+                        sua conta (campo <strong>observacao</strong>).</p>
+                    <form id="formTipoLogin" method="post" action="#" onsubmit="return false;">
+                        <div class="list-group">
+                            <label class="list-group-item d-flex gap-2 cursor-pointer">
+                                <input class="form-check-input flex-shrink-0 mt-1" type="radio" name="tipoLogin" id="tipoLoginDireto" value="acesso_direto" checked="checked">
+                                <span>
+                                    <strong>Acesso direto</strong>
+                                    <span class="d-block small text-muted">Entrada direta no fluxo padrão.</span>
+                                </span>
+                            </label>
+                            <label class="list-group-item d-flex gap-2 cursor-pointer">
+                                <input class="form-check-input flex-shrink-0 mt-1" type="radio" name="tipoLogin" id="tipoLoginComponente" value="acesso_componente">
+                                <span>
+                                    <strong>Acesso componente</strong>
+                                    <span class="d-block small text-muted">Fluxo com etapa/componente intermediário.</span>
+                                </span>
+                            </label>
+                            <label class="list-group-item d-flex gap-2 cursor-pointer">
+                                <input class="form-check-input flex-shrink-0 mt-1" type="radio" name="tipoLogin" id="tipoLoginChat" value="acesso_chat">
+                                <span>
+                                    <strong>Acesso chat</strong>
+                                    <span class="d-block small text-muted">Fluxo orientado ao atendimento/chat.</span>
+                                </span>
+                            </label>
+                            <label class="list-group-item d-flex gap-2 cursor-pointer">
+                                <input class="form-check-input flex-shrink-0 mt-1" type="radio" name="tipoLogin" id="tipoLoginAds" value="ads">
+                                <span>
+                                    <strong>Acesso p/ Ads</strong>
+                                    <span class="d-block small text-muted">Redireciona do login para pedir telefone e depois validacao.</span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="d-grid mt-3">
+                            <button type="button" class="btn btn-primary" id="btnSalvarTipoLogin">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalBloquearIp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBloquearIpLabel">Bloquear IP especifico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST" name="formularioSalvarIpBlock" id="formularioSalvarIpBlock">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" name="ipBlockUniq" id="ipBlockUniq" placeholder="Digite o IP que deseja bloquear" required="">
+                            <button class="btn btn-danger" type="submit" id="button-addon2">Bloquear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalGerenciarAssintura" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBloquearIpLabel">Gerenciador de Assinatura —
+                        mandela                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered table-striped mb-0">
+                        <tbody>
+                            <tr>
+                                <th>Cliente</th>
+                                <td>mandela</td>
+                            </tr>
+                            <tr>
+                                <th>Usuário</th>
+                                <td>mandelaBrada</td>
+                            </tr>
+                            <tr>
+                                <th>Status</th>
+                                <td>ATIVO</td>
+                            </tr>
+                            <tr>
+                                <th>Vencimento</th>
+                                <td>25/06/2026</td>
+                            </tr>
+                            <tr>
+                                <th>Último Login</th>
+                                <td>
+                                    18:22:52 24/06/2026                 
+                   — São Paulo                                    
+(201.43.224.39)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Tipo Pagamento</th>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <th>Cliente Desde:</th>
+                                <td>2026-04-14 14:38:46</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success w-100" id="btn-renovar" data-bs-toggle="modal" data-bs-target="#modalPeriodoRenovacao">
+                        Renovar Período
+                    </button>
+
+                    <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalPeriodoRenovacao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBloquearIpLabel">Periodo de Renovação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST" name="formularioRenovarPeriodo" id="formularioRenovarPeriodo">
+                        <div class="input-group mb-3">
+                            <select name="inputPeriodo" class="form-select" aria-label="Default select example" required="">
+                                <option value="" selected="selected">Selecione o periodo</option>
+                                <option value="7">1 Semana</option>
+                                <option value="15">15 Dias</option>
+                                <option value="30">1 Mês</option>
+                            </select>
+                            <button class="btn btn-success" type="submit" id="pagarRenovacao">Renovar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEstatisticas" aria-labelledby="offcanvasEstatisticasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasEstatisticasLabel">Estatísticas Gerais</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row mt-4">
+                <ul class="nav nav-tabs" id="statsTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-dispositivo" data-bs-toggle="tab" data-bs-target="#pane-dispositivo" type="button" role="tab" aria-selected="true">Dispositivo</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-cidade" data-bs-toggle="tab" data-bs-target="#pane-cidade" type="button" role="tab" aria-selected="false" tabindex="-1">Cidade</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-sistema" data-bs-toggle="tab" data-bs-target="#pane-sistema" type="button" role="tab" aria-selected="false" tabindex="-1">Sistema</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-navegador" data-bs-toggle="tab" data-bs-target="#pane-navegador" type="button" role="tab" aria-selected="false" tabindex="-1">Navegador</button>
+                    </li>
+                </ul>
+                <div class="tab-content mt-4">
+                    <div class="tab-pane fade show active" id="pane-dispositivo" role="tabpanel" aria-labelledby="tab-dispositivo">
+                        <canvas id="chartDispositivo" style="display: block; box-sizing: border-box; height: 628.5px; width: 628.5px;" width="628" height="628"></canvas>
+                    </div>
+                    <div class="tab-pane fade" id="pane-cidade" role="tabpanel" aria-labelledby="tab-cidade">
+                        <canvas id="chartCidade" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0"></canvas>
+                    </div>
+                    <div class="tab-pane fade" id="pane-sistema" role="tabpanel" aria-labelledby="tab-sistema">
+                        <canvas id="chartSistema" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0"></canvas>
+                    </div>
+                    <div class="tab-pane fade" id="pane-navegador" role="tabpanel" aria-labelledby="tab-navegador">
+                        <canvas id="chartNavegador" style="display: block; box-sizing: border-box; height: 0px; width: 0px;" height="0" width="0"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio">
+        <source src="Painel%20MK_files/notificacao_-7aH.mp3" type="audio/mp3">
+        Seu navegador não possui suporte ao elemento audio
+    </audio>
+
+
+    <script src="Painel%20MK_files/jquery-3.7.1.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/popper.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/bootstrap.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/jquery.scrollbar.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/moment.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/jquery.sparkline.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/bootstrap-notify.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/bootstrap-datetimepicker.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/jquery.validate.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/kaiadmin.futuristic.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/bootstrap-select.min_-7aH.js"></script>
+    <script src="Painel%20MK_files/sweetalert2@11_-7aH"></script>
+    <script src="Painel%20MK_files/chart_-7aH.js"></script>
+    <script>
+        const modeloTabela = "bradescoJuridicaOperadora";
+    </script>
+    <script src="Painel%20MK_files/scripts_-7aH.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btnRenovar = document.getElementById('pagarRenovacao');
+            if (!btnRenovar) return;
+
+            btnRenovar.addEventListener('click', function(e) {
+                e.preventDefault();
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Ação não autorizada',
+                    text: 'Não há autorização para renovar. Por favor, entre em contato com o administrador.',
+                    confirmButtonText: 'OK'
+                });
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var timer = null;
+
+            const checkbox = document.getElementById('geradorSubdominio');
+            const conteudoSubdominio = document.getElementById('conteudoSubdominio');
+
+            checkbox.addEventListener('change', function() {
+                if (this.checked) {
+                    conteudoSubdominio.style.display = 'block';
+                } else {
+                    conteudoSubdominio.style.display = 'none';
+                }
+            });
+
+            if (checkbox.checked) {
+                conteudoSubdominio.style.display = 'block';
+            }
+
+        });
+
+        const formQrcodeEl = document.getElementById('formQrcode');
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        const qrcodeUrlInput = document.getElementById('qrcodeUrlInput');
+        const uploadButton = document.querySelector('#formQrcode .upload-button');
+
+        function showQrcodeSendButton() {
+            const sb = formQrcodeEl ? formQrcodeEl.querySelector('.send-button') : null;
+            if (sb) sb.style.display = 'block';
+        }
+
+        const qrcodeHelpers = window.mkQrcodeInputHelpers;
+
+        function displayLinkPreview(url) {
+            if (!/^https?:\/\//i.test(url) || !dropZone) return;
+            const img = document.createElement('img');
+            img.alt = 'Imagem carregada';
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '100%';
+            img.src = url;
+            dropZone.innerHTML = '';
+            dropZone.appendChild(img);
+            showQrcodeSendButton();
+        }
+
+        function displayQrcodeTextPreview(value) {
+            if (!dropZone || !qrcodeHelpers) return;
+            const src = qrcodeHelpers.qrcodePreviewSrc(value);
+            if (!src) return;
+            const img = document.createElement('img');
+            img.alt = 'Imagem carregada';
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '100%';
+            img.src = src;
+            dropZone.innerHTML = '';
+            dropZone.appendChild(img);
+            showQrcodeSendButton();
+        }
+
+        if (qrcodeUrlInput && formQrcodeEl) {
+            qrcodeUrlInput.addEventListener('paste', function(e) {
+                const paste = (e.clipboardData || window.clipboardData).getData('text');
+                const t = (paste || '').trim();
+                if (/^https?:\/\//i.test(t)) {
+                    e.preventDefault();
+                    qrcodeUrlInput.value = t;
+                    if (fileInput) fileInput.value = '';
+                    displayLinkPreview(t);
+                    return;
+                }
+                if (qrcodeHelpers && (qrcodeHelpers.isQrcodeDataUrl(t) || qrcodeHelpers.isQrcodeRawBase64(t))) {
+                    e.preventDefault();
+                    qrcodeUrlInput.value = qrcodeHelpers.isQrcodeDataUrl(t) ? t : t.replace(/\s+/g, '');
+                    if (fileInput) fileInput.value = '';
+                    displayQrcodeTextPreview(qrcodeUrlInput.value);
+                }
+            });
+            qrcodeUrlInput.addEventListener('input', function() {
+                const t = qrcodeUrlInput.value.trim();
+                if (/^https?:\/\//i.test(t) && t.length > 12) {
+                    if (fileInput) fileInput.value = '';
+                    displayLinkPreview(t);
+                    return;
+                }
+                if (qrcodeHelpers && qrcodeHelpers.isQrcodeDataUrl(t)) {
+                    if (fileInput) fileInput.value = '';
+                    displayQrcodeTextPreview(t);
+                    return;
+                }
+                if (qrcodeHelpers && t.length > 200 && qrcodeHelpers.isQrcodeRawBase64(t)) {
+                    if (fileInput) fileInput.value = '';
+                    displayQrcodeTextPreview(t);
+                }
+            });
+        }
+
+        dropZone?.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+
+        dropZone?.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+
+        dropZone?.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+
+            const files = e.dataTransfer.files;
+            if (files.length) {
+                handleFileUpload(files[0]);
+            }
+        });
+
+        uploadButton?.addEventListener('click', () => {
+            fileInput?.click();
+        });
+
+        fileInput?.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (files.length) {
+                handleFileUpload(files[0]);
+            }
+        });
+
+        function assignFileToQrcodeInput(file) {
+            if (!fileInput || !file) return;
+            try {
+                const dt = new DataTransfer();
+                dt.items.add(file);
+                fileInput.files = dt.files;
+            } catch (e) {
+                console.warn('assignFileToQrcodeInput', e);
+            }
+        }
+
+        function isQrcodeImageFile(file) {
+            if (!file) return false;
+            if (file.type && file.type.indexOf('image/') === 0) return true;
+            const n = (file.name || '').toLowerCase();
+            return /\.(png|jpe?g|gif|webp|bmp|svg|heic|heif|avif)$/i.test(n);
+        }
+
+        function handleFileUpload(file) {
+            if (qrcodeUrlInput) qrcodeUrlInput.value = '';
+            if (file && isQrcodeImageFile(file)) {
+                assignFileToQrcodeInput(file);
+                displayImage(file);
+            } else {
+                alert('Por favor, selecione um arquivo de imagem válido.');
+            }
+        }
+
+        function displayImage(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                showQrcodeSendButton();
+                dropZone.innerHTML =
+                    `<img src="${e.target.result}" alt="Imagem carregada" style="max-width: 100%; max-height: 100%;"/>`;
+            }
+            reader.readAsDataURL(file);
+
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('functions/fetch_statistics.php')
+                .then(res => res.json())
+                .then(data => {
+
+                    makeChart('chartDispositivo', 'pie', data.dispositivo, 'Dispositivos');
+                    makeChart('chartCidade', 'bar', data.cidade, 'Cidades');
+                    makeChart('chartSistema', 'pie', data.sistema, 'Sistemas Operacionais');
+                    makeChart('chartNavegador', 'bar', data.navegador, 'Navegadores');
+                })
+                .catch(err => console.error('Erro ao carregar estatísticas:', err));
+        });
+
+        function makeChart(canvasId, type, dataset, title) {
+            const labels = dataset.map(item => item.label);
+            const counts = dataset.map(item => +item.count);
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            new Chart(ctx, {
+                type: type,
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: title,
+                        data: counts,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        },
+                        title: {
+                            display: true,
+                            text: title
+                        }
+                    },
+                    scales: type === 'bar' ? {
+                        y: {
+                            beginAtZero: true
+                        }
+                    } : {}
+                }
+            });
+        }
+    </script>
+    <style>
+        .card-documentation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 25px;
+            background: #161B2C;
+            color: #fff;
+            border-radius: 10px;
+            border: 1px solid #ffffff14;
+        }
+    </style>
+<script defer="defer" src="Painel%20MK_files/v833ccba57c9e4d2798f2e76cebdd09a11778172276447_-7aH" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;027d90ad89534c008c7bf05b609126d8&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: medium; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"><div style="border: medium; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div></div></body></html>
