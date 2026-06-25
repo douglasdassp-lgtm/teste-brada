@@ -43,26 +43,19 @@
         </div>
     </div>
 
-    <script src="Login%20-%20Painel%20MK_files/jquery-3.7.1.min_0YTI.js"></script>
-    <script src="Login%20-%20Painel%20MK_files/popper.min_0YTI.js"></script>
-    <script src="Login%20-%20Painel%20MK_files/bootstrap.min_0YTI.js"></script>
-    <script src="Login%20-%20Painel%20MK_files/kaiadmin.min_0YTI.js"></script>
     <script>
-        (function () {
-            $('#loginForm').on('submit', function (e) {
-                var u = $('#login').val().trim();
-                var s = $('#senha').val();
-                if (!u || !s) {
-                    e.preventDefault();
-                    alert('Preencha usuário e senha.');
-                }
-            });
-            $('#linkRecuperar').on('click', function () {
-                alert('Para recuperação de senha, contate o administrador do sistema.');
-            });
-        })();
-    </script>
-    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a10fd1cbcac5407e',t:'MTc4MjM0Njk2Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: medium; visibility: hidden;"></iframe><script defer="defer" src="Login%20-%20Painel%20MK_files/v833ccba57c9e4d2798f2e76cebdd09a11778172276447_0YTI" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;027d90ad89534c008c7bf05b609126d8&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+document.getElementById("loginForm").addEventListener("submit", function(e){
+    e.preventDefault();
 
+    const usuario = document.getElementById("login").value.trim();
+    const senha = document.getElementById("senha").value;
+
+    if(usuario === "admin" && senha === "Brada2026@"){
+        window.location.href = "painel.html";
+    } else {
+        alert("Usuário ou senha inválidos!");
+    }
+});
+</script>
 
 </body></html>
