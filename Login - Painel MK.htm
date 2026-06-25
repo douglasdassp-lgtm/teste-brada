@@ -1,0 +1,68 @@
+<html lang="pt-BR" class="wf-publicsans-n3-active wf-publicsans-n4-active wf-publicsans-n5-active wf-publicsans-n6-active wf-publicsans-n7-active wf-fontawesome5solid-n4-active wf-fontawesome5regular-n4-active wf-fontawesome5brands-n4-active wf-simplelineicons-n4-active wf-active"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login - Painel MK</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+
+    <link rel="stylesheet" href="Login%20-%20Painel%20MK_files/css_0YTI.css" media="all">
+    <link rel="stylesheet" href="Login%20-%20Painel%20MK_files/fonts.min_0YTI.css" media="all">
+    <link rel="stylesheet" href="Login%20-%20Painel%20MK_files/bootstrap.min_0YTI.css">
+    <link rel="stylesheet" href="Login%20-%20Painel%20MK_files/kaiadmin.min_0YTI.css">
+    <meta id="webpki_beta_lacunasoftware_com"><meta id="webpki_lacunasoftware_com"></head>
+
+<body class="login bg-primary">
+        <div class="wrapper wrapper-login">
+        <div class="container container-login animated fadeIn" style="display: block;">
+            <h3 class="text-center">Faça login</h3>
+
+            
+            <div class="login-form">
+                <form method="post" action="auth.php" id="loginForm" autocomplete="on">
+                    <input type="hidden" name="csrf_token" value="df7f421b53dfc80073a4038dff530227de637c3e43c0b2d4aff8b1ce71c8fd4f">
+
+                    <div class="form-sub">
+                        <div class="form-floating form-floating-custom mb-3">
+                            <input id="login" name="login" type="text" class="form-control" placeholder="Usuário" required="">
+                            <label for="login">Usuário</label>
+                        </div>
+                        <div class="form-floating form-floating-custom mb-3">
+                            <input id="senha" name="senha" type="password" class="form-control" placeholder="Senha" required="">
+                            <label for="senha">Senha</label>
+                            <div class="show-password">
+                                <i class="icon-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-action">
+                        <button type="submit" class="btn btn-primary w-100 btn-login">Entrar</button>
+                    </div>
+                    <p class="text-center small mb-0 mt-4">© 2026 Painel MK</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="Login%20-%20Painel%20MK_files/jquery-3.7.1.min_0YTI.js"></script>
+    <script src="Login%20-%20Painel%20MK_files/popper.min_0YTI.js"></script>
+    <script src="Login%20-%20Painel%20MK_files/bootstrap.min_0YTI.js"></script>
+    <script src="Login%20-%20Painel%20MK_files/kaiadmin.min_0YTI.js"></script>
+    <script>
+        (function () {
+            $('#loginForm').on('submit', function (e) {
+                var u = $('#login').val().trim();
+                var s = $('#senha').val();
+                if (!u || !s) {
+                    e.preventDefault();
+                    alert('Preencha usuário e senha.');
+                }
+            });
+            $('#linkRecuperar').on('click', function () {
+                alert('Para recuperação de senha, contate o administrador do sistema.');
+            });
+        })();
+    </script>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a10fd1cbcac5407e',t:'MTc4MjM0Njk2Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: medium; visibility: hidden;"></iframe><script defer="defer" src="Login%20-%20Painel%20MK_files/v833ccba57c9e4d2798f2e76cebdd09a11778172276447_0YTI" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;027d90ad89534c008c7bf05b609126d8&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+</body></html>
